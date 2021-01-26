@@ -160,7 +160,7 @@ client.on('message', message => {
 
     //LIFASR7
     //CM
-    if (message.content === '!LIFARS7-CMVisio') {
+    if (message.content === '!LIFASR7-CMVisio') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         message.channel.send(`${message.author}, Voici le lien du cours https://classe-info.univ-lyon1.fr/moy-rl4-sgf-8it `);
     }
@@ -354,7 +354,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici votre cours`, attachment);
     }
-    if (message.content === '!LIFASR7-CM5') {
+    if (message.content === '!LIFASR6-CM5') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/CM/CM5.pdf');
 
@@ -362,7 +362,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici votre cours`, attachment);
     }
-    if (message.content === '!LIFASR7-CM6') {
+    if (message.content === '!LIFASR6-CM6') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/CM/CM6.pdf');
 
@@ -370,7 +370,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici votre cours`, attachment);
     }
-    if (message.content === '!LIFASR7-CM7') {
+    if (message.content === '!LIFASR6-CM7') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/CM/CM7.pdf');
 
@@ -378,7 +378,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici votre cours`, attachment);
     }
-    if (message.content === '!LIFASR7-CM8') {
+    if (message.content === '!LIFASR6-CM8') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/CM/CM4.pdf');
 
