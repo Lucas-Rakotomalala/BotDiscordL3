@@ -33,7 +33,7 @@ client.on('message', message => {
     }
 
     //###TD###//
-    if (message.content === '!LIFAP6-TD1-Sujet') {
+    if (message.content === '!LIFAP6-TD1Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFAP6/TD/TD1.pdf');
 
