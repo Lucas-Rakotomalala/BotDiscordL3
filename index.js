@@ -18,7 +18,7 @@ client.on('ready', () => {
 client.on('message', message => {
     // LIFAP6
     //###CM##//
-    if (message.content === '!LIFAP6-CM-Visio') {
+    if (message.content === '!LIFAP6-CMVisio') {
 
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le lien du cours https://classe-info.univ-lyon1.fr/niv-oyu-jtx-qys`);
@@ -41,7 +41,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFAP6-TD2-Sujet') {
+    if (message.content === '!LIFAP6-TD2Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFAP6/TD/TD2.pdf');
 
@@ -49,7 +49,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFAP6-TD3-Sujet') {
+    if (message.content === '!LIFAP6-TD3Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFAP6/TD/TD3.pdf');
 
@@ -57,7 +57,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFAP6-TD4-Sujet') {
+    if (message.content === '!LIFAP6-TD4Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFAP6/TD/TD4.pdf');
 
@@ -65,7 +65,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFAP6-TD5-Sujet') {
+    if (message.content === '!LIFAP6-TD5Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFAP6/TD/TD5.pdf');
 
@@ -73,7 +73,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFAP6-TD6-Sujet') {
+    if (message.content === '!LIFAP6-TD6Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFAP6/TD/TD6.pdf');
 
@@ -81,7 +81,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFAP6-TD7-Sujet') {
+    if (message.content === '!LIFAP6-TD7Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFAP6/TD/TD7.pdf');
 
@@ -89,7 +89,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFAP6-TD8-Sujet') {
+    if (message.content === '!LIFAP6-TD8Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFAP6/TD/TD8.pdf');
 
@@ -97,7 +97,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFAP6-TD9-Sujet') {
+    if (message.content === '!LIFAP6-TD9Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFAP6/CM/TD9.pdf');
 
@@ -105,7 +105,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFAP6-TD10-Sujet') {
+    if (message.content === '!LIFAP6-TD10Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFAP6/CM/TD10.pdf');
 
@@ -115,14 +115,14 @@ client.on('message', message => {
     }
 
     //TDGROUPE
-    if (message.content === '!LIFAP6-TD-Visio') {
+    if (message.content === '!LIFAP6-TDVisio') {
 
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author},\n --** GROUPE A: https://classe-info.univ-lyon1.fr/niv-oyu-jtx-qys **-- \n --** GROUPE B: https://classe-info.univ-lyon1.fr/lou-zb8-vqh-gjo **-- \n --** GROUPE C: https://classe-info.univ-lyon1.fr/fra-cvr-aby-wkf **-- \n`);
     }
 
     //TPGROUPE
-    if (message.content === '!LIFAP6-TP-Visio') {
+    if (message.content === '!LIFAP6-TPVisio') {
 
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author},\n --** GROUPE A1: https://classe-info.univ-lyon1.fr/niv-oyu-jtx-qys **-- \n --** GROUPE A2: https://classe-info.univ-lyon1.fr/cre-at1-510-pul **-- \n --** GROUPE B1: https://classe-info.univ-lyon1.fr/lou-zb8-vqh-gjo **-- \n --** GROUPE B2: https://classe-info.univ-lyon1.fr/mig-9cm-ucf-6lb **-- \n --** GROUPE C1: https://classe-info.univ-lyon1.fr/fra-cvr-aby-wkf **-- \n --** GROUPE C2: https://classe-info.univ-lyon1.fr/ieh-72u-eqx-ksy **--`);
@@ -130,11 +130,11 @@ client.on('message', message => {
 
 
     //TPSUJET
-    if (message.content === '!LIFAP6-TP1-Sujet') {
+    if (message.content === '!LIFAP6-TP1Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         message.channel.send(`${message.author}, Voici le lien du TP1 https://forge.univ-lyon1.fr/lifap6/tp-listes-etu `);
     }
-    if (message.content === '!LIFAP6-TP2-Sujet') {
+    if (message.content === '!LIFAP6-TP2Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFAP6/TP/TP2.pdf');
 
@@ -142,11 +142,11 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TP`, attachment);
     }
-    if (message.content === '!LIFAP6-TP3-Sujet') {
+    if (message.content === '!LIFAP6-TP3Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         message.channel.send(`${message.author}, Voici le lien du TP3 https://forge.univ-lyon1.fr/lifap6/tp-union-find-etu `);
     }
-    if (message.content === '!LIFAP6-TP4-Sujet') {
+    if (message.content === '!LIFAP6-TP4Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         message.channel.send(`${message.author}, Voici le lien du TP4 https://forge.univ-lyon1.fr/lifap6/tp-avl-etu `);
     }
@@ -160,11 +160,11 @@ client.on('message', message => {
 
     //LIFASR7
     //CM
-    if (message.content === '!LIFARS7-CM-Visio') {
+    if (message.content === '!LIFARS7-CMVisio') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         message.channel.send(`${message.author}, Voici le lien du cours https://classe-info.univ-lyon1.fr/moy-rl4-sgf-8it `);
     }
-    if (message.content === '!LIFASR7-CM-Vidéo') {
+    if (message.content === '!LIFASR7-CMVidéo') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         message.channel.send(`${message.author}, Voici le lien pour les vidéos  https://www.youtube.com/playlist?list=PL6-YbcqXawf7wl23TTE8Oy6LZV2T4k1Xg `);
     }
@@ -203,7 +203,7 @@ client.on('message', message => {
 
 
     //###TD###//
-    if (message.content === '!LIFASR7-TD1-Sujet') {
+    if (message.content === '!LIFASR7-TD1Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TD/TD1.pdf');
 
@@ -211,7 +211,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFASR7-TD2-Sujet') {
+    if (message.content === '!LIFASR7-TD2Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TD/TD2.pdf');
 
@@ -219,7 +219,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFASR7-TD3-Sujet') {
+    if (message.content === '!LIFASR7-TD3Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/CM/TD3.pdf');
 
@@ -227,7 +227,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFASR7-TD4-Sujet') {
+    if (message.content === '!LIFASR7-TD4Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TD/TD4.pdf');
 
@@ -235,7 +235,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TD`, attachment);
     }
-    if (message.content === '!LIFASR7-TD5-Sujet') {
+    if (message.content === '!LIFASR7-TD5Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TD/TD5.pdf');
 
@@ -246,14 +246,14 @@ client.on('message', message => {
 
 
     //TDGROUPE
-    if (message.content === '!LIFASR7-TD-Visio') {
+    if (message.content === '!LIFASR7-TDVisio') {
 
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author},\n --** GROUPE A: A Donner **-- \n --** GROUPE B: A Donner **-- \n --** GROUPE C: A Donner **-- \n`);
     }
 
     //TPGROUPE
-    if (message.content === '!LIFASR7-TP-Visio') {
+    if (message.content === '!LIFASR7-TPVisio') {
 
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author},\n --** GROUPE A1: A Donner **-- \n --** GROUPE A2: A Donner **-- \n --** GROUPE B1: A Donner **-- \n --** GROUPE B2: A Donner **-- \n --** GROUPE C1: A Donner **-- \n --** GROUPE C2: A Donner **--`);
@@ -261,7 +261,7 @@ client.on('message', message => {
 
 
     //TPSUJET
-    if (message.content === '!LIFASR7-TP1-Sujet') {
+    if (message.content === '!LIFASR7-TP1Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TP/TP1.pdf');
 
@@ -269,7 +269,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TP`, attachment);
     }
-    if (message.content === '!LIFASR7-TP2-Sujet') {
+    if (message.content === '!LIFASR7-TP2Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TP/TP2.pdf');
 
@@ -277,7 +277,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TP`, attachment);
     }
-    if (message.content === '!LIFASR7-TP3-Sujet') {
+    if (message.content === '!LIFASR7-TP3Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TP/TP3.pdf');
 
@@ -285,7 +285,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TP`, attachment);
     }
-    if (message.content === '!LIFASR7-TP4-Sujet') {
+    if (message.content === '!LIFASR7-TP4Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TP/TP4.pdf');
 
@@ -293,7 +293,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TP`, attachment);
     }
-    if (message.content === '!LIFASR7-TP5-Sujet') {
+    if (message.content === '!LIFASR7-TP5Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TP/TP5.pdf');
 
@@ -301,7 +301,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TP`, attachment);
     }
-    if (message.content === '!LIFASR7-TP6-Sujet') {
+    if (message.content === '!LIFASR7-TP6Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TP/TP6.pdf');
 
@@ -314,11 +314,11 @@ client.on('message', message => {
 
     //Réseaux
     //CM
-    if (message.content === '!LIFASR6-CM-Visio') {
+    if (message.content === '!LIFASR6-CMVisio') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         message.channel.send(`${message.author}, Voici le lien du cours https://univ-lyon1.webex.com/univ-lyon1/j.php?MTID=m9c81181a95ddfc034ca2877765725537 `);
     }
-    if (message.content === '!LIFASR6-CM-Vidéo') {
+    if (message.content === '!LIFASR6-CMVidéo') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         message.channel.send(`${message.author}, Voici le lien pour les vidéos  https://perso.univ-lyon1.fr/olivier.gluck/Cours/Supports/L3IF_RE/Videos-CM/ `);
     }
@@ -389,7 +389,7 @@ client.on('message', message => {
 
 
     //###TD###//
-    if (message.content === '!LIFASR6-TD-Sujet') {
+    if (message.content === '!LIFASR6-TDSujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR6/TD/TD.pdf');
 
@@ -401,14 +401,14 @@ client.on('message', message => {
 
 
     //TDGROUPE
-    if (message.content === '!LIFASR6-TD-Visio') {
+    if (message.content === '!LIFASR6-TDVisio') {
 
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author},\n --** GROUPE A: A Donner **-- \n --** GROUPE B: A Donner **-- \n --** GROUPE C: A Donner **-- \n`);
     }
 
     //TPGROUPE
-    if (message.content === '!LIFASR6-TP-Visio') {
+    if (message.content === '!LIFASR6-TPVisio') {
 
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author},\n --** GROUPE A1: A Donner **-- \n --** GROUPE A2: A Donner **-- \n --** GROUPE B1: A Donner **-- \n --** GROUPE B2: A Donner **-- \n --** GROUPE C1: A Donner **-- \n --** GROUPE C2: A Donner **--`);
@@ -416,7 +416,7 @@ client.on('message', message => {
 
 
     //TPSUJET
-    if (message.content === '!LIFASR6-TPR1-Sujet') {
+    if (message.content === '!LIFASR6-TPR1Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR6/TP/TPR1.pdf');
 
@@ -424,7 +424,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TP`, attachment);
     }
-    if (message.content === '!LIFASR6-TPR2-Sujet') {
+    if (message.content === '!LIFASR6-TPR2Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TP/TPR2.pdf');
 
@@ -432,7 +432,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TP`, attachment);
     }
-    if (message.content === '!LIFASR6-TPF1-Sujet') {
+    if (message.content === '!LIFASR6-TPF1Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR6/TP/TPF1.pdf');
 
@@ -440,7 +440,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TP`, attachment);
     }
-    if (message.content === '!LIFASR6-TPF2-Sujet') {
+    if (message.content === '!LIFASR6-TPF2Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TP/TPF2.pdf');
 
@@ -448,7 +448,7 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici le sujet de votre TP`, attachment);
     }
-    if (message.content === '!LIFASR6-TPF3-Sujet') {
+    if (message.content === '!LIFASR6-TPF3Sujet') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./LIFASR7/TP/TPF3.pdf');
 
