@@ -482,6 +482,12 @@ client.on('message', message => {
         message.channel.send(`${message.author}, Voici votre cours`, attachment);
     }
 
+    if (message.content === '!HelloXuxu') {
+        message.channel.send(`<@everyone>`, 'hello');
+    }
+
+
+
 });
 
 // Log our bot in using the token from https://discord.com/developers/applications
