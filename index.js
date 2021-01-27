@@ -482,9 +482,6 @@ client.on('message', message => {
         message.channel.send(`${message.author}, Voici votre cours`, attachment);
     }
 
-    if (!message.content.startsWith('!') || !message.content.startsWith('!LIFA')) {
-        message.channel.send(`${message.author}, Y'a pas de question bêtes juste des étudiants. `);
-    }
 });
 
 // Log our bot in using the token from https://discord.com/developers/applications
