@@ -482,7 +482,7 @@ client.on('message', message => {
         message.channel.send(`${message.author}, Voici votre cours`, attachment);
     }
 
-    var messageBienvenue = 'Salut à toi jeune Etudiant ou Etudiante! Comme je dirais il n\' y a pas de questions bête, juste des étudinats. ';
+    var messageBienvenue = 'Salut à toi jeune Etudiant ou Etudiante! Comme je dirais il n\' y a pas de questions bête, juste des étudiants. ';
     messageBienvenue += ' \n Je vais quand même t\' aider pour ce dernier semestre. ';
     messageBienvenue += ' \n Je suis un bot qui va te donner les liens des visios ou les pdfs des CM/TD/TP de tes cours.';
     messageBienvenue += '\n Comment c\' est possible ? Tape la commande !help pour voir comment fonctionne.'
@@ -500,6 +500,37 @@ client.on('message', message => {
 
     if (message.content === '!HelloXuxu') {
         message.channel.send(`@everyone \n ${messageBienvenue}`);
+    }
+
+    //
+    var messageHelp = 'A t\' es encore là toi ? Bon je vais te donner les commandes utiles.';
+    messageHelp += ' \n \n Pour récupérer le lien d\'un visio pour CM => ';
+    messageHelp += '!LIFAXXX-CMVisio où XXX représente le code de la matière.';
+    messageHelp += '\n Exemple je veux le lien du CM de LIFASR7 => !LIFASR7-CMVisio'
+    messageHelp += '\n \n Pour récupérer le lien d\'un visio pour les TD=> ';
+    messageHelp += '!LIFAXXX-TDVisio où XXX représente le code de la matière.';
+    messageHelp += '\n Exemple je veux le lien du TD de LIFAP6 => !LIFAP6-TDVisio';
+    messageHelp += '\n \n Pour récupérer le lien d\'un visio pour les TP=> ';
+    messageHelp += '!LIFAXXX-TPVisio où XXX représente le code de la matière.';
+    messageHelp += '\n Exemple je veux le lien du TD de LIFASR6 => !LIFASR6-TDVisio';
+    messageHelp += '\n \n Pour récupérer le PDF d\'un CM=> ';
+    messageHelp += '!LIFAXXX-CMY où XXX représente le code de la matière et Y le numéro.';
+    messageHelp += '\n Exemple je veux le PDF du CM1 de LIFAP6 => !LIFAP6-CM1';
+    messageHelp += '\n \n Pour récupérer le sujet  d\'un TD=> ';
+    messageHelp += '!LIFAXXX-TDYSujet où XXX représente le code de la matière et Y le numéro.';
+    messageHelp += '\n Exemple je veux le sujet du TD2 de LIFASR7 => !LIFASR7-TD2Sujet';
+    messageHelp += '\n \n Pour récupérer le sujet  d\'un TP=> ';
+    messageHelp += '!LIFAXXX-TPYSujet où XXX représente le code de la matière et Y le numéro.';
+    messageHelp += '\n \n ⚠️ Pour LIFASR6 (Réseaux) faire la différence entre les TPF et TPR ⚠️';
+    messageHelp += '\n !LIFASR6-TPR1Sujet ou !LIFASR6-TPF1Sujet';
+    messageHelp += '\n \n ⚠️ Plusieurs remarques ⚠️';
+    messageHelp += '\n \n 1️⃣ La commande pour avoir les corrections n\' est pas encore disponible et se metra à jour à chaque fois que la correction sera en ligne';
+    messageHelp += '\n \n 2️⃣ Les commandes sont disponibles seulemnt pour LIFAP6/LIFASR6/LIFASR7/AlgoNumérique/Optimisation d\' où d\'envoyer un message à Lucas Rakotomalala en privé pour qu\' il puisse rajouter';
+    messageHelp += '\n \n 3️⃣ Pour AlgoNumérique et Optimisation remplacer LIFAXXX par Algo ou Optimisation.';
+    messageHelp += '\n \n 4️⃣ Le Bot ne gère pas les erreurs de syntaxe si la commande ne mache pas, vérifier la syntaxe ou si le CM/TD/TP est disponible sur le lien du prof';
+    messageHelp += '\n si vous pensez qu\' il y\' a une erreur contacter Lucas';
+    if (message.content === '!help') {
+        message.channel.send(`${messageHelp}`);
     }
 
 
