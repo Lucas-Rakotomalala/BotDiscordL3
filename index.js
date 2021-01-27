@@ -497,6 +497,7 @@ client.on('message', message => {
     messageBienvenue += '\n Grogu vous donne de la force.';
     messageBienvenue += '\n Xuxu.';
     messageBienvenue += '\n Allez tape !help pour visualisez les commandes.';
+    console.log(messageBienvenue);
 
     if (message.content === '!HelloXuxu') {
         message.channel.send(`${messageBienvenue}`);
