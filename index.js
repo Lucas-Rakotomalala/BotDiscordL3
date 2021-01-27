@@ -481,6 +481,10 @@ client.on('message', message => {
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author}, Voici votre cours`, attachment);
     }
+
+    else {
+        message.channel.send(`${message.author}, Y'a pas de question bêtes juste des étudiants. `);
+    }
 });
 
 // Log our bot in using the token from https://discord.com/developers/applications
