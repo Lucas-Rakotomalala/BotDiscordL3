@@ -482,7 +482,7 @@ client.on('message', message => {
         message.channel.send(`${message.author}, Voici votre cours`, attachment);
     }
 
-    const messageBienvenue = 'Salut à toi jeune Etudiant ou Etudiante! Comme je dirais il n\' y a pas de questions bête, juste des étudinats. ';
+    var messageBienvenue = 'Salut à toi jeune Etudiant ou Etudiante! Comme je dirais il n\' y a pas de questions bête, juste des étudinats. ';
     messageBienvenue += ' \n Je vais quand même t\' aider pour ce dernier semestre. ';
     messageBienvenue += ' \n Je suis un bot qui va te donner les liens des visios ou les pdfs des CM/TD/TP de tes cours.';
     messageBienvenue += '\n Comment c\' est possible ? Tape la commande !help pour voir comment fonctionne.'
@@ -497,10 +497,9 @@ client.on('message', message => {
     messageBienvenue += '\n Grogu vous donne de la force.';
     messageBienvenue += '\n Xuxu.';
     messageBienvenue += '\n Allez tape !help pour visualisez les commandes.';
-    console.log(messageBienvenue);
 
     if (message.content === '!HelloXuxu') {
-        message.channel.send(`${messageBienvenue}`);
+        message.channel.send(`@everyone \n ${messageBienvenue}`);
     }
 
 
