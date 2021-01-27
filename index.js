@@ -482,8 +482,24 @@ client.on('message', message => {
         message.channel.send(`${message.author}, Voici votre cours`, attachment);
     }
 
+    const messageBienvenue = 'Salut à toi jeune Etudiant ou Etudiante! Comme je dirais il n\' y a pas de questions bête, juste des étudinats. ';
+    messageBienvenue += ' \n Je vais quand même t\' aider pour ce dernier semestre. ';
+    messageBienvenue += ' \n Je suis un bot qui va te donner les liens des visios ou les pdfs des CM/TD/TP de tes cours.';
+    messageBienvenue += '\n Comment c\' est possible ? Tape la commande !help pour voir comment fonctionne.'
+    messageBienvenue += '\n Je cherche une ou deux personnes qui peut donner les informations suivantes: ';
+    messageBienvenue += '\n -AMALA B + Algèbre: Liens et PDF des CM/TD/TP';
+    messageBienvenue += '\n -BDW2 + LIFAP7: Liens et PDF des CM/TD/TP';
+    messageBienvenue += '\n -LIFASR6: Liens TD/TP (Après affectation)';
+    messageBienvenue += '\n -LIFASR7: Liens TD/TP des Groupes A et B (liens visio)';
+    messageBienvenue += '\n -AlgoNumérique + Optimisation: Liens TD/TP';
+    messageBienvenue += '\n \n Pour cela contactez lucas rakotomalala en privé pour qu\'il puisse mettre à jour ';
+    messageBienvenue += 'ou de rajouter des fonctionnalités ';
+    messageBienvenue += '\n Grogu vous donne de la force.';
+    messageBienvenue += '`\n Xuxu.';
+    messageBienvenue += '\n Allez tape !help pour visualisez les commandes.'
+
     if (message.content === '!HelloXuxu') {
-        message.channel.send(`<@everyone>`, 'hello');
+        message.channel.send(`@everyone \n ${messageBienvenue}');
     }
 
 
