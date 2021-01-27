@@ -499,7 +499,7 @@ client.on('message', message => {
     messageBienvenue += '\n Allez tape !help pour visualisez les commandes.';
 
     if (message.content === '!HelloXuxu') {
-        message.channel.send(`@everyone \n ${messageBienvenue}`);
+        message.channel.send(`${messageBienvenue}`);
     }
 
 
