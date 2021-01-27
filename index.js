@@ -495,11 +495,11 @@ client.on('message', message => {
     messageBienvenue += '\n \n Pour cela contactez lucas rakotomalala en privé pour qu\'il puisse mettre à jour ';
     messageBienvenue += 'ou de rajouter des fonctionnalités ';
     messageBienvenue += '\n Grogu vous donne de la force.';
-    messageBienvenue += '`\n Xuxu.';
-    messageBienvenue += '\n Allez tape !help pour visualisez les commandes.'
+    messageBienvenue += '\n Xuxu.';
+    messageBienvenue += '\n Allez tape !help pour visualisez les commandes.';
 
     if (message.content === '!HelloXuxu') {
-        message.channel.send(`@everyone \n ${messageBienvenue}');
+        message.channel.send(`@everyone \n ${messageBienvenue}`);
     }
 
 
