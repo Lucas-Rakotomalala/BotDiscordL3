@@ -460,6 +460,11 @@ client.on('message', message => {
 
 
     //OPtimisation
+    if (message.content === '!Optimisation-CMVisio') {
+
+        // Send the attachment in the message channel with a content
+        message.channel.send(`${message.author}, Voici le lien du cours https://univ-lyon1.webex.com/univ-lyon1/j.php?MTID=m0a855110a593ce6413d8887bfe8d199c`);
+    }
     if (message.content === '!Optimisation-CM1') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./opti/CM/CM1.pdf');
@@ -473,6 +478,11 @@ client.on('message', message => {
 
 
     //AlgoNumérique
+    if (message.content === '!Algo-CMVisio') {
+
+        // Send the attachment in the message channel with a content
+        message.channel.send(`${message.author}, Voici le lien du cours https://univ-lyon1.webex.com/univ-lyon1/j.php?MTID=m0a855110a593ce6413d8887bfe8d199c`);
+    }
     if (message.content === '!Algo-CM1') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
         const buffer = fs.readFileSync('./AlgoNum/CM/CM1.pdf');
