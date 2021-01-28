@@ -316,7 +316,7 @@ client.on('message', message => {
     //CM
     if (message.content === '!LIFASR6-CMVisio') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
-        message.channel.send(`${message.author}, Voici le lien du cours https://univ-lyon1.webex.com/univ-lyon1/j.php?MTID=m9c81181a95ddfc034ca2877765725537 `);
+        message.channel.send(`${message.author}, Voici le lien du cours https://univ-lyon1.webex.com/univ-lyon1/j.php?MTID=m741ec90129cb28de1665a6d6e8dacee0 `);
     }
     if (message.content === '!LIFASR6-CMVidéo') {
         // Get the buffer from the 'memes.txt', assuming that the file exists
