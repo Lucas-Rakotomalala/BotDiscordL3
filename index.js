@@ -153,7 +153,7 @@ client.on('message', message => {
 
     //TDCorrection
     if (message.content === '!LIFAP6-TD1Correction') {
-        message.channel.send(`${message.author}, Voici le lien de la correction du TD1 https://perso.liris.cnrs.fr/vincent.nivoliers/lifap6/td1_solution.php`)
+        message.channel.send(`${message.author}, Voici le lien de la correction du TD1 https://perso.liris.cnrs.fr/vincent.nivoliers/lifap6/td1_solution.php`);
     }
 
 
@@ -548,8 +548,8 @@ client.on('message', message => {
         }
 
 
-
-    });
+    }
+});
 
 // Log our bot in using the token from https://discord.com/developers/applications
 client.login(process.env.TOKEN);
